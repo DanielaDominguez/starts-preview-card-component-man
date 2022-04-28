@@ -1,0 +1,14 @@
+@use '../variables/fonts';
+
+@mixin resetStyleSheet {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@mixin setHTML {
+    font-size: fonts.$mainSize;
+    color: white;
+}
+
